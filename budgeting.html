@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Budgeting Website</title>
+  <link rel="stylesheet" href="budgeting.css">
+  
+</head>
+<body>
+  <h1>Budgeting Website</h1>
+
+  <!-- Display Total Disposable Income -->
+  <div id="totalDisposableIncome">
+    <strong>Total Disposable Income:</strong> $<span id="totalAmount">0</span>
+  </div>
+
+  <!-- Display Income Items -->
+  <div>
+    <h2>Income</h2>
+    <button id="addIncomeButton">Add Income</button>
+    <ul id="incomeList"></ul>
+  </div>
+
+  <!-- Display Expenses Items -->
+  <div>
+    <h2>Expenses</h2>
+    <button id="addExpenseButton">Add Expense</button>
+    <ul id="expenseList"></ul>
+  </div>
+
+  <!-- Script -->
+  <script src="budgeting.js"></script>
+</body>
+</html>
+
